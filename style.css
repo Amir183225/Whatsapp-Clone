@@ -1,0 +1,181 @@
+#div1 {
+    width: 354px;
+    height: 650px;
+    outline-color: rgb(146, 143, 143);
+    outline-style: auto;
+    border-color: black;
+    background-color: #ffffff;
+    display: inline-block;
+    color: rgb(10, 9, 9);
+    overflow: scroll;
+    cursor: pointer;
+  }
+  #div2 {
+    height: 650px;
+    width: 979px;
+    float: right;
+    outline-style: auto;
+    outline-color: rgb(146, 143, 143);
+    background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+    color: rgb(19, 20, 20);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+  input {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 300px;
+    height: 20px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+  }
+  h2 {
+    margin-left: 25px;
+  }
+  #img1 {
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 29px;
+    display: inline-block;
+    float: left;
+  }
+  p {
+    margin-top: 30px;
+    margin-left: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    color: green;
+    font-weight: lighter;
+  }
+  h2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+  h2:active {
+    background-color: aliceblue;
+  }
+  i {
+    float: right;
+    margin-top: 35px;
+    margin-right: 25px;
+  }
+  #ik {
+    margin-bottom: 10px;
+  }
+  .time {
+    float: right;
+    margin-right: 10px;
+    color: green;
+  }
+  span {
+    font-weight: 900;
+    color: white;
+  }
+  .read {
+    color: black;
+  }
+  #nav {
+    width: 100%;
+    height: 80px;
+    outline-style: auto;
+    outline-color: black;
+  }
+  #logo {
+    width: 81px;
+    height: 66px;
+    border-radius: 41px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  #logoname {
+    font-weight: bolder;
+    margin-bottom: 50px;
+  }
+  #iktyping {
+    font-weight: lighter;
+    color: green;
+  }
+  #chat1 {
+    width: 180px;
+    height: 55px;
+    outline-style: auto;
+    outline-color: black;
+    float: right;
+    margin-left: 10px;
+    margin-top: 19px;
+    margin-right: 20px;
+    color: rgb(12, 13, 14);
+    background-color: green;
+    text-transform: capitalize;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  #chat2 {
+    justify-content: center;
+    text-transform: capitalize;
+    /* margin: 5px; */
+    background-color: aliceblue;
+  }
+  .chat3 {
+    width: 160px;
+    height: 33px;
+    outline-style: auto;
+    outline-color: rgb(148, 147, 147);
+    float: left;
+    margin-left: 10px;
+    margin: 10px;
+    color: rgb(12, 13, 14);
+    background-color: aliceblue;
+  }
+  #chatt2 {
+    height: 10px;
+    color: rgb(23, 24, 26);
+    background-color: aliceblue;
+  }
+  span {
+    color: black;
+  }
+  #chatbox1 {
+    margin-top: 25px;
+  }
+  #chatbox2 {
+    color: rgb(13, 13, 14);
+    margin-top: 12px;
+    padding-top: 5px;
+  }
+  .chat3 {
+    background-color: green;
+    /* background-color: green; */
+    padding: 20px;
+    width: 160px;
+    height: 33px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    outline-style: auto;
+    outline-color: black;
+  }
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .time{
+    /* padding: 20px; */
+    font-weight: lighter;
+  }
+  @media (min-width: 400px) {
+    div2 {
+      display: block;
+    }
+  }
+  @media (max-width: 1350px) {
+    body {
+      display: block;
+    }
+  }
